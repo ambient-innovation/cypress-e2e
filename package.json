@@ -1,0 +1,14 @@
+{
+  "name": "cypress-base-image",
+  "version": "1.0.0",
+  "description": "This is a base image with cypress preinstalled",
+  "dependencies": {
+    "cypress": "^3.1.0"
+  },
+  "scripts": {
+    "run": "$(npm bin)/cypress run",
+    "open": "$(npm bin)/cypress open"
+  },
+  "author": "Ambient Innovation: GmbH",
+  "license": ""
+}
