@@ -21,7 +21,7 @@ The default command will be `cypress run`.
 ## Development
 
 This project is hosted at https://github.com/ambient-innovation/cypress-e2e
-The docker image is hosted on dockerhub.
+The docker image is hosted on https://hub.docker.com/r/ambientinnovation/cypress-docker.
 
 To make changes, just push to the repo. It is configured as automated build. The branch
 "master" will receive the tag "latest" and each Git Tag will create a corresponding docker tag.
