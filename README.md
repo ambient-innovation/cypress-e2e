@@ -23,10 +23,5 @@ The default command will be `cypress run`.
 This project is hosted at https://github.com/ambient-innovation/cypress-e2e
 The docker image is hosted on dockerhub.
 
-To make changes, proceed as follows (replace the version number of course):
-
-1. Make your changes to the code
-2. $ docker login (Credentials in 1 Password)
-3. $ docker build -t ambientinnovation/cypress-docker:v1.0.0 -t ambientinnovation/cypress-docker:latest .
-4. $ docker push ambientinnovation/cypress-docker:v1.0.0
-5. $ docker push ambientinnovation/cypress-docker:latest
+To make changes, just push to the repo. It is configured as automated build. The branch
+"master" will receive the tag "latest" and each Git Tag will create a corresponding docker tag.
