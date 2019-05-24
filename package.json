@@ -4,7 +4,7 @@
   "description": "This is a base image with cypress preinstalled",
   "dependencies": {
     "Faker": "^0.7.2",
-    "cypress": "^3.3.0",
+    "cypress": "^3.3.1",
     "cypress-file-upload": "^3.1.2",
     "start-server-and-test": "^1.9.0",
     "universal-cookie": "^4.0.0",
