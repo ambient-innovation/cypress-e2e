@@ -15,7 +15,12 @@ The default command will be `cypress run`.
 
 ```
 - docker run --rm -v ${PWD}/cypress-e2e/cypress:/app/cypress -v ${PWD}/cypress-e2e/cypress.json:/app/cypress.json -v ${PWD}/cypress-e2e/package.json:/app/package.json --network="host" ambientinnovation/cypress-docker
+```
 
+If you want to run cypress via Chrome 74 instead of Electron 61 you can run cypress with the optional browser flag set to chrome.
+
+ ```
+ - docker run --rm -v ${PWD}/cypress-e2e/cypress:/app/cypress -v ${PWD}/cypress-e2e/cypress.json:/app/cypress.json -v ${PWD}/cypress-e2e/package.json:/app/package.json --network="host" ambientinnovation/cypress-docker  cypress run --browser chrome
 ```
 
 ## Development
