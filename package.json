@@ -6,6 +6,7 @@
     "Faker": "^0.7.2",
     "cypress": "^3.3.1",
     "cypress-file-upload": "^3.1.2",
+    "js-base64": "^2.5.1",
     "start-server-and-test": "^1.9.0",
     "universal-cookie": "^4.0.0",
     "wait-on": "^3.2.0"

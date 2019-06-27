@@ -297,7 +297,7 @@ cypress-file-upload@^3.1.2:
   resolved "https://registry.yarnpkg.com/cypress-file-upload/-/cypress-file-upload-3.1.2.tgz#4a0024f99ca157565bf2b20c110e6e6874da28cb"
   integrity sha512-gZE2G7ZTD2Y8APrcgs+ATRMKs/IgH2rafCmi+8o99q5sDoNRLR+XKxOcoyWLehj9raGnO98YDYO8DY7k1VMGBw==
 
-cypress@^3.3.0:
+cypress@^3.3.1:
   version "3.3.1"
   resolved "https://registry.yarnpkg.com/cypress/-/cypress-3.3.1.tgz#8a127b1d9fa74bff21f111705abfef58d595fdef"
   integrity sha512-JIo47ZD9P3jAw7oaK7YKUoODzszJbNw41JmBrlMMiupHOlhmXvZz75htuo7mfRFPC9/1MDQktO4lX/V2+a6lGQ==
@@ -767,6 +767,11 @@ joi@^13.0.0:
     hoek "5.x.x"
     isemail "3.x.x"
     topo "3.x.x"
+
+js-base64@^2.5.1:
+  version "2.5.1"
+  resolved "https://registry.yarnpkg.com/js-base64/-/js-base64-2.5.1.tgz#1efa39ef2c5f7980bb1784ade4a8af2de3291121"
+  integrity sha512-M7kLczedRMYX4L8Mdh4MzyAMM9O5osx+4FcOQuTvr3A9F2D9S5JXheN0ewNbrvK2UatkTRhL5ejGmGSjNMiZuw==
 
 jsbn@~0.1.0:
   version "0.1.1"
