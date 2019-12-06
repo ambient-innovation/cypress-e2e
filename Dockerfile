@@ -1,4 +1,4 @@
-FROM cypress/browsers:node10.2.1-chrome74
+FROM cypress/browsers:node12.13.0-chrome78-ff70
 
 ENV PATH="${PATH}:/app/node_modules/.bin"
 WORKDIR /app
