@@ -1,3 +1,8 @@
+# DEPRECATED
+
+This is only here for reference. Please use the recommended way from 
+[official docs](https://docs.cypress.io/guides/guides/continuous-integration.html#Setting-up-CI).
+
 # AI cypress docker base
 
 This docker image is supposed to make the integration of cypress in the CI pipeline easier and faster.
